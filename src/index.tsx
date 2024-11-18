@@ -8,6 +8,7 @@ import {
 } from "@apollo/client";
 import { removeTypenameFromVariables } from "@apollo/client/link/remove-typename";
 import App from "./App";
+import "./index.scss";
 
 const httpLink = createHttpLink({
   uri: "http://testing-leaf-server-env.eba-3fyupvsp.us-east-1.elasticbeanstalk.com/graphql",

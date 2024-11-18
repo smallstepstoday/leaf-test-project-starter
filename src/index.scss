@@ -1,0 +1,82 @@
+.popover {
+  border-radius: 1rem;
+  border: #e5e5e5 solid 1px;
+  box-shadow: 0 0 3em rgba(0, 0, 0, 0.5);
+}
+
+.test {
+  color: red;
+}
+
+.ce-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+
+  .cal {
+    display: flex;
+    align-items: center;
+    font: 700 30px/30px "Roboto", sans-serif;
+
+    .cal-badge {
+      background-color: #5eb8a9;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      margin-right: 30px;
+      border: #39766b solid 2px;
+      border-radius: 8px;
+    }
+  }
+}
+
+.ce-title-buttons {
+  span {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+}
+
+.design-image {
+  width: auto;
+  height: auto;
+  max-width: 1098px;
+  max-height: 632px;
+  margin-top: 500px;
+}
+
+.date-range {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  font: 400 30px/38px "Roboto", sans-serif;
+
+  .dr-icon {
+    margin-right: 30px;
+    font-size: 30px;
+    transform: "scaleX(-1)";
+  }
+}
+
+.ce-divider {
+  border-color: #ebebeb;
+  border-width: 2px;
+}
+
+.ce-description {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  font: 400 30px/38px "Roboto", sans-serif;
+
+  .ce-desc-icon {
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
+  }
+}
